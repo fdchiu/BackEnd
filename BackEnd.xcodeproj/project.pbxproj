@@ -15,6 +15,8 @@
 		637542381B17D698006B26E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637542371B17D698006B26E3 /* Images.xcassets */; };
 		6375423B1B17D698006B26E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637542391B17D698006B26E3 /* LaunchScreen.xib */; };
 		637542471B17D698006B26E3 /* BackEndTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637542461B17D698006B26E3 /* BackEndTests.m */; };
+		637542521B17D7A3006B26E3 /* NetworkSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 637542511B17D7A3006B26E3 /* NetworkSession.m */; };
+		637542551B1A28C3006B26E3 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637542541B1A28C3006B26E3 /* DataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		637542401B17D698006B26E3 /* BackEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		637542451B17D698006B26E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		637542461B17D698006B26E3 /* BackEndTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackEndTests.m; sourceTree = "<group>"; };
+		637542501B17D7A3006B26E3 /* NetworkSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkSession.h; sourceTree = "<group>"; };
+		637542511B17D7A3006B26E3 /* NetworkSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkSession.m; sourceTree = "<group>"; };
+		637542531B1A28C3006B26E3 /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		637542541B1A28C3006B26E3 /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,10 @@
 				637542391B17D698006B26E3 /* LaunchScreen.xib */,
 				6375422E1B17D697006B26E3 /* BackEnd.xcdatamodeld */,
 				637542271B17D697006B26E3 /* Supporting Files */,
+				637542501B17D7A3006B26E3 /* NetworkSession.h */,
+				637542511B17D7A3006B26E3 /* NetworkSession.m */,
+				637542531B1A28C3006B26E3 /* DataViewController.h */,
+				637542541B1A28C3006B26E3 /* DataViewController.m */,
 			);
 			path = BackEnd;
 			sourceTree = "<group>";
@@ -225,6 +235,8 @@
 				6375422D1B17D697006B26E3 /* AppDelegate.m in Sources */,
 				637542301B17D697006B26E3 /* BackEnd.xcdatamodeld in Sources */,
 				637542331B17D697006B26E3 /* ViewController.m in Sources */,
+				637542521B17D7A3006B26E3 /* NetworkSession.m in Sources */,
+				637542551B1A28C3006B26E3 /* DataViewController.m in Sources */,
 				6375422A1B17D697006B26E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

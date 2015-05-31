@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NetworkSession.h"
 
-@interface ViewController : UIViewController
 
+@interface ViewController : UIViewController <NetworkSessionDelegate>
+
+@property (nonatomic,strong) NetworkSession *networkSession;
+- (IBAction)startSession:(id)sender;
 
 @end
 
